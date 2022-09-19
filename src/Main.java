@@ -1,23 +1,42 @@
 public class Main {
     public static void main(String[] args) {
-        double dog = 8;
-        dog = dog + 4;
-        dog = dog - 3.5;
-                System.out.println(dog);
+        // задание 1
+        System.out.println("Задача 1");
+                double dog = 8;
+        System.out.println(dog);
         var cat = 3.6;
-        cat = cat + 4;
-        cat = cat - 1.6;
         System.out.println(cat);
         var paper = 763789;
+        System.out.println(paper );
+
+        System.out.println("Задача 2");
+
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
+
+        System.out.println("Задача 3");
+        dog = dog - 3.5;
+        System.out.println(dog);
+        cat = cat - 1.6;
+        System.out.println(cat);
         paper = paper + 4;
         paper = paper - 7639;
         System.out.println(paper );
+
+        // Задание 2
+        System.out.println("Задача 4");
         var friend = 19;
         System.out.println(friend);
         friend = friend + 2;
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+
+        System.out.println("Задача 5");
         var frog = 3.5;
         System.out.println(frog);
         frog = frog * 10;
@@ -27,14 +46,17 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
+// Задание 3
+        System.out.println("Задача 6");
         var boxerFirst = 78.2;
         var boxerSecond = 82.7;
-        System.out.println( boxerFirst + boxerSecond );
+        System.out.println("Общий вес бойцов " + (boxerFirst + boxerSecond) );
         var weightDifference = boxerSecond - boxerFirst;
         System.out.println( "Разница между весами бойцов " + weightDifference + " кг" );
-        var weightDifference2 = boxerSecond % boxerFirst;
-        System.out.println( "Разница между весами бойцов " + weightDifference2 + " кг" );
-
+        System.out.println("Задача 7");
+        System.out.println( "Разница между весами бойцов (Первый способ) " + (boxerSecond - boxerFirst) + " кг" );
+        System.out.println( "Разница между весами бойцов (Второй способ) " + (boxerSecond % boxerFirst) + " кг" );
+        System.out.println("Задача 8");
 var totalTime = 640;
 var workingTime = 8;
 var amountWorkers = totalTime / workingTime;
