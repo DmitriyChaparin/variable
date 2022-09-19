@@ -31,17 +31,17 @@ public class Main {
         var boxerSecond = 82.7;
         System.out.println( boxerFirst + boxerSecond );
         var weightDifference = boxerSecond - boxerFirst;
-        System.out.println( "Разница между весами бойцов" + weightDifference + "кг" );
+        System.out.println( "Разница между весами бойцов " + weightDifference + " кг" );
         var weightDifference2 = boxerSecond % boxerFirst;
-        System.out.println( "Разница между весами бойцов" + weightDifference2 + "кг" );
+        System.out.println( "Разница между весами бойцов " + weightDifference2 + " кг" );
 
 var totalTime = 640;
 var workingTime = 8;
 var amountWorkers = totalTime / workingTime;
-System.out.println("Всего работнков в компании" + amountWorkers + "человек");
+System.out.println("Всего работнков в компании " + amountWorkers + " человек");
 amountWorkers = amountWorkers + 94;
 var totalTime2 = amountWorkers * 8;
-System.out.println( "Если в компании работает" + amountWorkers + "человек, то всего" + totalTime2 + "часов работы может быть поделено между сотрудниками"  );
+System.out.println( "Если в компании работает " + amountWorkers + " человек, то всего " + totalTime2 + " часов работы может быть поделено между сотрудниками"  );
 
 
     }
